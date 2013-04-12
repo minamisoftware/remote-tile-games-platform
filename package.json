@@ -1,0 +1,43 @@
+{
+  "name": "remote-tile-games-platform",
+  "version": "0.0.1",
+  "description": "A proof of concept platform for tile based games with a remote logic",
+  "homepage": "http://github.com/minamisoftware/remote-tile-games-platform",
+  "keywords": [
+    "emailer",
+    "library"
+  ],
+  "author": {
+    "name": "Marcus Baer",
+    "email": "kontakt@minami-software.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/minamisoftware/remote-tile-games-platform.git"
+  },
+  "bugs": {
+    "url": "http://github.com/minamisoftware/remote-tile-games-platform/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/minamisoftware/remote-tile-games-platform/blob/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": ">=0.10",
+    "npm": ">=1.2.14"
+  },
+  "dependencies": {
+    "underscore": "~1.4.4",
+    "backbone": "~1.0.0",
+	"doxybox": ">=0.0.3"
+  },
+  "main": "./bin/server.js",
+  "bin": {
+		"game-poc": "./bin/server"
+  },
+  "readmeFilename": "README.md",
+  "_id": "remote-tile-games-platform@0.1.0",
+  "_from": "remote-tile-games-platform@"
+}
